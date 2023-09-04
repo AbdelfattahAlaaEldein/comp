@@ -296,7 +296,7 @@ left: 0;
             .home{
                 /* position: relative; */
                 /* top: -140px; */
-              height: 95vh;
+              height: 90vh;
               flex-direction: column-reverse;
               justify-content: space-evenly;
               flex-wrap: wrap;
