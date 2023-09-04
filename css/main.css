@@ -215,7 +215,7 @@ left: 0;
 }
 .home{
     /* padding-top: 20px; */
-    height: 92vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -296,7 +296,7 @@ left: 0;
             .home{
                 /* position: relative; */
                 /* top: -140px; */
-              height: 100vh;
+              height: 95vh;
               flex-direction: column-reverse;
               justify-content: space-evenly;
               flex-wrap: wrap;
