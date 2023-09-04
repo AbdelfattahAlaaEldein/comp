@@ -288,14 +288,14 @@ left: 0;
       }
       
       .home .contant {
-        width: 90%;
+        width: 100%;
       }
         }
         @media(max-width:450px){
             .home{
-                position: relative;
-                top: -140px;
-              /* height: 75vh; */
+                /* position: relative; */
+                /* top: -140px; */
+              height: 75vh;
               flex-direction: column-reverse;
               justify-content: space-evenly;
               flex-wrap: wrap;
