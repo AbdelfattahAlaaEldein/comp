@@ -209,7 +209,7 @@ left: 0;
         transform: translateY(0rem);
     }
     50%{
-        transform: translateY(3rem);
+        transform: translateY(2rem);
     }
     
 }
@@ -222,6 +222,7 @@ left: 0;
 }
 .home .image {
     width: 40%;
+    height: 60%;
     align-items: end;
     text-align: end;
 }
@@ -262,6 +263,14 @@ left: 0;
 
 
     @media(max-width:768px){
+        .home  .image{
+            height: 40%;
+          }
+          
+          .home .contant {
+            height: 40%;
+            width: 100%;
+          }
         .home .image img{
             width: 90%;
             border-radius: 50%;
@@ -281,7 +290,11 @@ left: 0;
         }
         }
     @media(max-width:650px){
+        .home .image img{
+           height: 90%;
+        }
       .home{
+        margin-top: 20px;
         height: 100vh;
         text-align: center;
         align-items: center;
@@ -289,8 +302,13 @@ left: 0;
         justify-content: space-evenly;
         flex-wrap: wrap;
       }
+     
+        }
+    @media(max-width:450px){
+      
+    
       .home  .image{
-        height: 40%;
+        height: 35%;
       }
       
       .home .contant {
