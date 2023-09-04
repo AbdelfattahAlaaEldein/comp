@@ -282,8 +282,9 @@ left: 0;
         }
     @media(max-width:650px){
       .home{
-        height: 90vh;
+        height: 100vh;
         text-align: center;
+        align-items: center;
         flex-direction: column-reverse;
         justify-content: space-evenly;
         flex-wrap: wrap;
