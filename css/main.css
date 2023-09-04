@@ -289,8 +289,12 @@ left: 0;
         justify-content: space-evenly;
         flex-wrap: wrap;
       }
+      .home  .image{
+        height: 30%;
+      }
       
       .home .contant {
+        height: 40%;
         width: 100%;
       }
         }
